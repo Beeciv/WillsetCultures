@@ -2670,14 +2670,6 @@ reqs	=
       "Building", "Michelangelo's Chapel", "City"
     }
 
-[effect_mausoleum_of_mausolos_culture]
-type    = "History"
-value	= 2
-reqs	=
-    { "type", "name", "range"
-      "Building", "Mausoleum of Mausolos", "City"
-    }
-
 [effect_temple_of_artemis_culture]
 type    = "History"
 value	= 2
