@@ -731,4 +731,5 @@ set =
 	  "endspaceship", "DISABLED"
 	  "allowtake", "HAhadOob"
 	  "killstack", "disabled"
+    "mgr_distance", 5
     }
