@@ -144,9 +144,10 @@ gold_upkeep_style = "City"
 
 [illness]
 ; Whether plagues (illness) are possible
-; There are some latent building effects in effects.ruleset which affect
-; health, if you enable plague here.
-illness_on = FALSE
+
+; Plague is ENABLED
+; Will, 8/4/2024
+illness_on = TRUE
 
 ; the base factor for illness (of percent)
 illness_base_factor = 25
