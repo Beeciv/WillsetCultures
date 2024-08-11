@@ -207,14 +207,19 @@ reqs    =
 ; NOTE: vastly lower output waste by distance is democracy's big win.
 ; As your nation becomes bigger, this becomes more important.
 ; Will, 6/15/2024
-[effect_corruption_democracy1]
-type    = "Output_Waste_By_Distance"
-value   = 1
-reqs    =
-    { "type", "name", "range"
-      "Gov", "Democracy", "Player"
-      "OutputType", "Trade", "Local"
-    }
+
+; Entirely disabling corruption by distance to buff.
+; Communism has none, democracy should have none too.
+; Will, 8/11/2024
+
+; [effect_corruption_democracy1]
+; type    = "Output_Waste_By_Distance"
+; value   = 1
+; reqs    =
+;     { "type", "name", "range"
+;       "Gov", "Democracy", "Player"
+;       "OutputType", "Trade", "Local"
+;     }
 
 
 [effect_corruption_despotism0]
