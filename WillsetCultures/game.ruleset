@@ -721,7 +721,7 @@ set =
 	  "gold", 150
 	  "sciencebox", 125
 	  "techpenalty", 0
-	  "foodbox", 40
+	  "foodbox", 50
 	  "citymindist", 3
 	  "trademindist", 1
 	  "rapturedelay", 2
