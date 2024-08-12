@@ -149,8 +149,11 @@ gold_upkeep_style = "City"
 ; Will, 8/4/2024
 illness_on = TRUE
 
+; Lower base illness factor to 10%
+; Will, 8/12/2024
+
 ; the base factor for illness (of percent)
-illness_base_factor = 25
+illness_base_factor = 10
 
 ; minimum city size for illness
 illness_min_size = 3
