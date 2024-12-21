@@ -54,10 +54,10 @@ min_start_native_area = 0
 
 ; How many fragments each movement point has.
 ; For example road movement costs are relative to this.
-move_fragments = 3
+move_fragments = 9
 
 ; How many move_fragments IgTer unit movement costs
-igter_cost = 1
+igter_cost = 3
 
 ; Whether diagonal movement has increased cost (no effect with hex topology)
 ; The cost increase is more accurate with larger values for move_fragments
@@ -1683,7 +1683,7 @@ gui_type       = "Other"
 
 [road_road]
 extra          = "Road"
-move_cost      = 1
+move_cost      = 3
 food_incr      = 0
 shield_incr    = 0
 trade_incr     = 1
@@ -1695,7 +1695,7 @@ flags          = "RequiresBridge"
 
 [road_railroad]
 extra          = "Railroad"
-move_cost      = 0
+move_cost      = 1
 food_incr      = 0
 shield_incr    = 0
 trade_incr     = 0
@@ -1707,7 +1707,7 @@ flags          = "RequiresBridge"
 
 [road_river]
 extra          = "River"
-move_cost      = 1
+move_cost      = 3
 move_mode      = "Cardinal"
 food_incr_const   = 0
 shield_incr_const = 0
