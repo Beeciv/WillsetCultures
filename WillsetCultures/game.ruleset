@@ -147,7 +147,10 @@ gold_upkeep_style = "City"
 
 ; Plague is ENABLED
 ; Will, 8/4/2024
-illness_on = TRUE
+
+; Plague is DISABLED
+; Will, 12/20/2024
+illness_on = FALSE
 
 ; Lower base illness factor to 10%
 ; Will, 8/12/2024
