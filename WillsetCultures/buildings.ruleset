@@ -617,6 +617,9 @@ In each city, only one Power Plant, Hydro Plant, Nuclear Plant, or\
 ; Also cut buff from Offshore Platform to be percentage production buff
 ; As opposed to making each tile have one production
 ; Will, 2/12/2023
+
+; Increased offshore platform cost from 80 to 160.
+; Will, 12/21/2024
 [building_offshore_platform]
 name		= _("Offshore Platform")
 genus		= "Improvement"
@@ -630,7 +633,7 @@ graphic_alt	= "-"
 obsolete_by	=
     { "type", "name", "range"
     }
-build_cost	= 80
+build_cost	= 160
 upkeep		= 3
 sabotage	= 100
 sound		= "b_offshore_platform"
